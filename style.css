@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+.container p{
+    font-size: 20px;
+    background-color: #fcffe1;
+    border-radius: 8px 8px 0 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff68e;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-color:lightcoral;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+}
+
+header h1 {
+    margin: 0;
+    color: #ffeda3;
+}
+
+.description {
+    padding: 10px 20px;
+}
+
+.ingredients, .instructions {
+    padding: 20px;
+    background-color: #fcffe1;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.ingredients h2, .instructions h2 {
+    margin-top: 0;
+}
+
+.ingredients ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ingredients ul li {
+    margin: 5px 0;
+}
+
+.instructions ol {
+    padding-left: 20px;
+}
+
+.instructions ol li {
+    margin: 10px 0;
+}
